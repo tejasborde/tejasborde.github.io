@@ -429,7 +429,25 @@ section {
   border: 2px solid #1f5297;
 }
 
+/* Projet */
 
+iframe
+{
+  height:315px ;
+  width: 560px;
+  
+}
+@media (max-width: 768px)
+{
+  iframe
+  {
+    height:315px ;
+    width: 360px;
+    
+  }
+}
+
+/* End of Project */
 
 
 /*--------------------------------------------------------------
