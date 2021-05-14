@@ -437,7 +437,7 @@ section {
 .slider {
   width: 50%;
   /*background-color: #669DB3FF;*/
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
   border-radius: 10px;
   color: whitesmoke;
 }
