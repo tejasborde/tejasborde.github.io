@@ -360,7 +360,7 @@
         </div>
       </div>
         <div id="demo" class="carousel slide text-center mt-3 p-5 slider" data-aos="fade-right"  data-interval="3100" data-ride="carousel"
-        style="margin-top: 20px;">
+        style="margin-top: 20px;box-shadow: 3px 3px 24px black;">
         <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
@@ -425,7 +425,30 @@
     </section>
     <!-- End Project Section -->
 
+  <section id="project" class="contact-clean">
+    <div class="container">
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+    <form action="/send-mail" method="POST">
+      <h2 class="text-center">Contact</h2>
+      <div>
+      </div>
+      <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"
+              required="" autocomplete="off">
+      </div>
+      <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"
+              required="" autocomplete="off">
+      </div>
+      <div class="form-group"><textarea class="form-control" name="message" type="text" placeholder="Message"
+              rows="14" required="" minlength="10" autocomplete="off"></textarea>
+      </div>
 
+      <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+
+  </form>
+  </div>
+  </section>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
