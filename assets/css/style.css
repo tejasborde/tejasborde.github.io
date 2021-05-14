@@ -429,60 +429,9 @@ section {
   border: 2px solid #1f5297;
 }
 
-/* Projet */
-
-iframe
-{
-  height:315px ;
-  width: 560px;
-  
-}
-@media (max-width: 768px)
-{
-  iframe
-  {
-    height:315px ;
-    width: 360px;
-    
-  }
-}
-
-/* End of Project */
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
-}
-
+/* ------------------------------------------------------
+ Projet
+ ---------------------------------------------------------*/
 
 
 .slider {
@@ -563,8 +512,19 @@ iframe
 }
 
 
+/* ------------------------------------------------
+ End of Project 
+ ----------------------------------------------------*/
+
+
+/*-------------------------------------------------
+ contact
+---------------------------------------------------- */
+
+
 .contact-clean {
   padding: 80px 0;
+   background-color: #f5f8fd;
 }
   
   @media (max-width:767px) {
@@ -748,3 +708,43 @@ iframe
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+/*--------------------------------------------------------------
+ end of contact
+ --------------------------------------------------------------- */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    padding-right: 20px 15px;
+  }
+}
+
+
