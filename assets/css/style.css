@@ -462,6 +462,7 @@ section {
 .carousel-item >#button >p
 {
   font-size: 15px;
+  padding: 0px 20px;
 }
 
 #demo
@@ -469,6 +470,7 @@ section {
   margin-left: 20%;
   margin-right: 20%;
   max-width: 60%;
+  height: 400px;
 }
 #button
 {
@@ -487,7 +489,9 @@ section {
       padding: 0;
       padding-bottom: 3rem !important;
   }
-
+  #demo{
+    height: 260px;
+  }
   #button
 {
   font-size: 10px;
