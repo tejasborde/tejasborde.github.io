@@ -1,8 +1,16 @@
-body {
+/* body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
-}
+} */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+body{
+   font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #272829;
+}
 a {
     color: #149ddd;
 }
@@ -463,9 +471,8 @@ section {
 
 .slider {
     width: 50%;
-    /*background-color: #669DB3FF;*/
-    /* background-color: rgba(0, 0, 0, 1); */
-    background-color: rgb(27, 26, 26);
+    /* background-color: rgb(27, 26, 26); */
+    background-color: #f5f8fd;
     border-radius: 10px;
     color: whitesmoke;
 }
@@ -486,6 +493,7 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    color: black;
 }
 
 .carousel-item>#button>p {
@@ -529,7 +537,10 @@ section {
     color: #fff;
     text-decoration: none;
 }
-
+.carousel-control-prev,.carousel-control-next{
+     filter: invert(100%);
+    
+}
 @media screen and (min-width: 200px) and (max-width: 500px) {
     .slider {
         width: 80%;
@@ -572,7 +583,15 @@ section {
         height: 24px;
         transition: 0.3s;
     }
-}
+} 
+
+
+
+
+
+
+
+
 
 
 /* ------------------------------------------------
@@ -587,7 +606,11 @@ section {
 .contact-clean {
     padding: 80px 0;
     background-color: #f5f8fd;
+    
 }
+
+
+
 
 @media (max-width:767px) {
     .contact-clean {
@@ -627,8 +650,11 @@ section {
 }
 
 .contact-clean form .form-control {
-    background: #fff;
+    background: #f5f6f7;;
     border-radius: 2px;
+    border: none;
+    border-bottom: 2px solid #1f5297;
+    outline: none !important;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
     outline: none;
     color: inherit;
@@ -637,7 +663,8 @@ section {
 }
 
 .contact-clean form .form-control:focus {
-    border: 1px solid #b2b2b2;
+    border: none;
+    border-bottom: 2px solid #1f5297;
 }
 
 .contact-clean form textarea.form-control {
@@ -660,10 +687,13 @@ section {
     letter-spacing: 0.4px;
     line-height: 1;
     outline: none !important;
+    transition: 0.2s transform;
 }
 
 .contact-clean form .btn:hover {
     opacity: 1;
+    transform: scale(1.1);
+
 }
 
 .contact-clean form .btn:active {
@@ -671,7 +701,7 @@ section {
 }
 
 .contact-clean form .btn-primary {
-    background-color: #055ada !important;
+    background-color: #1f5297 !important;
     margin-top: 15px;
     color: #fff;
 }
