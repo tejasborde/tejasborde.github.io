@@ -432,6 +432,14 @@ section {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
+
+@media (max-width: 450px) {
+  .about .btn {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
