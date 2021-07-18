@@ -942,11 +942,32 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  /* background: rgb(62, 30, 242);
-  background: url("../images/bg1.jpg") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed; */
   height: 100vh;
   width: 100vw;
   place-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 51, 51, 0.644);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.541);
+}
+
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+::-webkit-resizer {
+  background: #fff;
 }
