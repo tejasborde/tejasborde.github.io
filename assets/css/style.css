@@ -571,13 +571,13 @@ section {
 }
 
 .certificate:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.05) !important;
 }
 
 .certificate-img {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
 }
 .certificate-img img {
   border: 1px solid gray;
@@ -624,7 +624,7 @@ section {
   box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.226);
 }
 .project .card-body {
-  text-align: center;
+  text-align: left;
 }
 
 .projects a {
@@ -633,13 +633,13 @@ section {
 }
 
 .project:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.05) !important;
 }
 
 .project-img {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 .project-img img {
   border: 1px solid gray;
@@ -668,6 +668,10 @@ section {
   .project:hover {
     transform: scale(1) !important;
   }
+}
+
+#project .profile .social-links {
+  text-align: left;
 }
 
 #project .profile .social-links a {
