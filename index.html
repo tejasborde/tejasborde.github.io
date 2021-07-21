@@ -7,15 +7,12 @@
         <meta content="" name="description" />
         <meta content="" name="keywords" />
         <!-- Favicons -->
-        <link href="assets/img/tejasbgr.png" rel="icon" />
+        <link href="assets/img/code2.svg" rel="icon" />
         <!-- Google Fonts -->
-        <link
-            href="assets/vendor/bootstrap/css/bootstrap.min.css"
-            rel="stylesheet"
-            />
-        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet" />
         <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -109,17 +106,24 @@
         <div id="particles-js"></div>
         <section
             id="hero"
-            class="d-flex flex-column justify-content-center align-items-center"
+            class="hero-page"
             >
-            <div class="hero-container" data-aos="fade-in">
-                <h1>Tejas Borde</h1>
-                <p>
-                    I'm
-                    <span
-                        class="typed"
-                        data-typed-items="Future Engineer,Web Developer"
-                        ></span>
-                </p>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-4" data-aos="fade-right"><img class="code-img" src="./assets/img/code2.svg"/></div>
+            <div class="col-lg-5">
+                <div class="hero-container" data-aos="fade-left">
+                    <div class="row"><h1>Tejas Borde</h1></div>
+                    <div class="row"><p>
+                        I'm
+                        <span
+                            class="typed"
+                            data-typed-items="Future Engineer,Web Developer"
+                            ></span>
+                    </p></div>
+                    
+                    
+                    
+                </div>
             </div>
         </section>
         <!-- End Hero -->
@@ -612,7 +616,8 @@
                             <div class="card project" data-aos="fade-in">
                                 <div class="project-img"><a href="https://easydownloads2021.herokuapp.com/" target="_blank">
                                     <img class="card-img-top" height="230" src="./assets/img/videodownloader.jpg" alt="Card image cap">
-                                </a></div>
+                                    </a>
+                                </div>
                                 <div class="card-body">
                                     <hr>
                                     <p class="card-text">Easy Downloads<br/><small>(Youtube,Instagram,Facebook Video Downloader)<br/>Group Project</small></p>
@@ -676,46 +681,52 @@
                     <div class="section-title">
                         <h2>Contact</h2>
                     </div>
-                    <form
-                        data-bss-recipient="56043648cf6a95b01f22b5194e59c37a"
-                        data-aos="fade-in"
-                        >
-                        <div class="form-group">
-                            <input
-                                class="form-control"
-                                type="text"
-                                name="name"
-                                placeholder="Name"
-                                required=""
-                                autocomplete="off"
-                                />
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <img class="contact-img" src="./assets/img/contact.svg"/>
                         </div>
-                        <div class="form-group">
-                            <input
-                                class="form-control"
-                                type="email"
-                                name="email"
-                                placeholder="Email"
-                                required=""
-                                autocomplete="off"
-                                />
+                        <div class="col-lg-6" data-aos="fade-left">
+                            <form
+                                data-bss-recipient="56043648cf6a95b01f22b5194e59c37a"
+                                >
+                                <div class="form-group">
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        name="name"
+                                        placeholder="Name"
+                                        required=""
+                                        autocomplete="off"
+                                        />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        class="form-control"
+                                        type="email"
+                                        name="email"
+                                        placeholder="Email"
+                                        required=""
+                                        autocomplete="off"
+                                        />
+                                </div>
+                                <div class="form-group">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        type="text"
+                                        placeholder="Message"
+                                        rows="14"
+                                        required=""
+                                        minlength="10"
+                                        autocomplete="off"
+                                        ></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn" type="submit">send</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <textarea
-                                class="form-control"
-                                name="message"
-                                type="text"
-                                placeholder="Message"
-                                rows="14"
-                                required=""
-                                minlength="10"
-                                autocomplete="off"
-                                ></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="btn" type="submit">send</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </section>
         </main>
@@ -769,14 +780,17 @@
                     <a href="https://github.com/tejasborde" target="_blank"
                         >&nbsp;@Tejas Borde</a
                         >
+                        <br>
+                        &copy;2021 | All rights reserved
                 </div>
             </div>
         </footer>
         <!-- End  Footer -->
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-        <!-- Vendor JS Files -->
+        <!-- vendor1 JS Files -->
         <script src="assets/vendor/jquery/jquery.min.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
         <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
         <script src="assets/vendor/counterup/counterup.min.js"></script>
         <script src="assets/vendor/typed.js/typed.min.js"></script>

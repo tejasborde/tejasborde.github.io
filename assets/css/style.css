@@ -243,9 +243,12 @@ h6 {
 }
 
 #hero .hero-container {
-  position: relative;
+  /* position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #hero h1 {
@@ -270,6 +273,20 @@ h6 {
   border-bottom: 3px solid white;
 }
 
+.hero-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-img {
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -285,6 +302,20 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .hero-page {
+    flex-direction: column;
+  }
+
+  .code-img {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 20%;
+  }
+
+  .hero-container {
+    margin-left: 25%;
+    margin-top: 50px;
   }
 }
 
@@ -558,11 +589,10 @@ section {
 --------------------------------------------------------------*/
 
 .certificate {
-  margin-top: 30px !important;
+  margin: 30px 5px !important;
   border-radius: 7px;
   height: 305px;
   transition: 0.2s transform !important;
-  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.226);
 }
 
 .certifications a {
@@ -571,7 +601,8 @@ section {
 }
 
 .certificate:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.02) !important;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.226);
 }
 
 .certificate-img {
@@ -617,11 +648,10 @@ section {
  ---------------------------------------------------------*/
 
 .project {
-  margin-top: 30px !important;
+  margin: 30px 5px !important;
   border-radius: 7px;
   height: 430px;
   transition: 0.2s transform !important;
-  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.226);
 }
 .project .card-body {
   text-align: left;
@@ -633,7 +663,8 @@ section {
 }
 
 .project:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.008) !important;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.226);
 }
 
 .project-img {
@@ -800,6 +831,20 @@ section {
   transform: translateY(1px);
 }
 
+.contact-img {
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 10% !important;
+}
+
+@media (max-width: 760px) {
+  .contact-img {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+}
+
 .btn_wrap {
   position: relative;
   display: -webkit-box;
@@ -952,6 +997,7 @@ section {
 }
 
 ::-webkit-scrollbar {
+  height: 0px;
   width: 6px;
 }
 
